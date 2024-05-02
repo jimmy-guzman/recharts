@@ -42,7 +42,7 @@ Storybook also has a great interface for adding tests. By default every story in
 
 ### Performance tests
 
-Recharts uses (https://callstack.github.io/reassure/)[Reassure] to run performance tests. Here is how to use:
+Recharts uses [Reassure](https://callstack.github.io/reassure/) to run performance tests. Here is how to use:
 
 1. Before making code changes, run `npm run test:perf:baseline`. This will generate baseline data. You only do this once for each change.
 2. Make your code changes now
@@ -55,7 +55,7 @@ Also be aware that the performance tests might take a long time to run; up to se
 
 ### Mutation tests
 
-We have (https://stryker-mutator.io/docs/)[stryker] installed and ready to use for mutation testing.
+We have [stryker](https://stryker-mutator.io/docs/) installed and ready to use for mutation testing.
 
 If you want to run mutation test be aware that these may take hours! A single file will take 15 minutes or more.
 
